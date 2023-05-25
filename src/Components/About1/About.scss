@@ -1,0 +1,202 @@
+.about-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.about1-wrapper {
+    padding-top: 90.79px;
+    display: flex;
+}
+
+.about1-list {
+    width: 230px;
+    margin-right: 61px;
+}
+
+.about1-item {
+    display: flex;
+    align-items: center;
+    width: 151px;
+    text-align: right;
+    margin-left: auto;
+    margin-top: 31px;
+
+    h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: -0.04em;
+        color: #111214;
+    }
+
+    h2 {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 96px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FE390C;
+        margin-left: 12px;
+    }
+}
+
+
+.about1-item1 {
+    display: flex;
+    align-items: center;
+    width: 151px;
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 30.59px;
+
+    h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        letter-spacing: -0.04em;
+        color: #111214;
+    }
+
+    h2 {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 96px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FE390C;
+        margin-right: 12px;
+    }
+}
+
+.aboutme-wrapper {
+    display: flex;
+    margin-left: 65px;
+
+    h2 {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 120px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #FE390C;
+        margin-right: 24px;
+    }
+
+    div {
+        margin-top: 30px;
+
+        h3 {
+            font-family: 'Anton';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 60px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #111214;
+            margin-bottom: 23.68px;
+        }
+
+        .aboutme1 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #A9A9AA;
+            margin-bottom: 15.79px;
+        }
+
+        .aboutme2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            color: #A9A9AA;
+        }
+    }
+}
+
+
+@media (min-width: 0) and (max-width: 428px) {
+    .about-wrap {
+        display: block;
+        align-items: center;
+    }
+
+    .about1-wrapper {
+        padding-top: 44px;
+        width: 100%;
+        display: block;
+        justify-content: none;
+    }
+
+    .about1-list {
+        width: 230px;
+        display: block;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .about1-item {
+        margin-top: 31.58px;
+    }
+
+    .aboutme-wrapper {
+        margin-left: 0;
+        margin-top: 67.06px;
+        h2 {
+            font-weight: 400;
+            font-size: 64px;
+            line-height: 96px;
+            margin-right: 17px;
+        }
+        div {
+            margin-top: 18px;
+            h3 {
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 48px;
+            }
+            .aboutme1 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #A9A9AA;
+            }
+            .aboutme2 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 32px;
+                letter-spacing: -0.02em;
+                color: #A9A9AA;
+                margin-bottom: 47px;
+            }
+        }
+    }
+}

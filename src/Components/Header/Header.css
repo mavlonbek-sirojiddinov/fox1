@@ -85,6 +85,11 @@ header {
     color: #FFFFFF;
 }
 
+.hero-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .hero-title {
     font-family: 'Anton';
     font-style: normal;
@@ -97,6 +102,16 @@ header {
     letter-spacing: 0.015em;
     margin-bottom: 10px;
     text-transform: uppercase;
+}
+
+.hero-title-span {
+    display: block;
+    width: 2px;
+    margin-left: 1px;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    transform: translateY(-5px);
 }
 
 .hero-text {
@@ -122,4 +137,121 @@ header {
     color: #FFFFFF;    
     padding: 16px 24px;
     border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.hero-btn:active {
+    background: #b42606;
+}
+
+.header-icon {
+    cursor: pointer;
+}
+
+.nav-hamburger {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+@media (min-width: 0) and (max-width: 428px) {
+    header {
+        background-image: url(../../assets/img/headerBg2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .nav-bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 23px;
+        padding-bottom: 25px;
+        margin-bottom: 282px;
+    }
+
+    .nav-hamburger {
+        display: block;
+    }
+
+    .nav-bar-btn {
+        display: none;
+    }
+
+    .nav-bar-list {
+        display: none;
+    }
+
+
+    .hero-head-wrap {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 230px;
+    }
+
+    .hero-name {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FE390C;
+        margin-bottom: 0px;
+    }
+
+    .hero-title {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 110px;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.015em;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+    
+    .hero-title-span {
+        display: block;
+        width: 1.5px;
+        margin-left: 7px;
+        height: 93px;
+        background-color: #FFFFFF;
+        border: 1.5px solid #FFFFFF;
+        transform: translateY(-5px);
+    }
+    
+    .hero-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    .hero-btn {
+        background: #FE390C;
+        border-radius: 4px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 16px 24px;
+        border: none;
+        cursor: pointer;
+        outline: none;
+    }
 }

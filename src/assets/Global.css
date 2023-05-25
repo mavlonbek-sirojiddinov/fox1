@@ -2,9 +2,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Anton&display=swap);
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -13,7 +13,50 @@ body {
 }
 
 .container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+  .container {
     width: 100%;
-    max-width: 1140px;
+    max-width: 395px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 0) and (max-width: 414px) {
+  .container {
+    width: 100%;
+    max-width: 381px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 0) and (max-width: 412px) {
+  .container {
+    width: 100%;
+    max-width: 379px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 0) and (max-width: 393px) {
+  .container {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 0) and (max-width: 375px) {
+  .container {
+    width: 100%;
+    max-width: 341px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 0) and (max-width: 360px) {
+  .container {
+    width: 100%;
+    max-width: 336px;
+    margin: 0 auto;
+  }
 }
