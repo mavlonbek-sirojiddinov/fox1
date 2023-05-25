@@ -1,0 +1,67 @@
+.CVD-box {
+    background-image: url(../../assets/img/imgCV/Bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(-120px);
+}
+
+.CVD-wrap {
+    padding-bottom: 79px;
+    padding-top: 73px;
+}
+
+.CVD-title {
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.CVD-btn {
+    display: block;
+    background: #FE390C;
+    border-radius: 4px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 16px 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    outline: none;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.CVD-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    color: #A9A9AA;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.CVD-link::before {
+    content: "";
+    background-image: url(../../assets/img/imgCV/Icon.svg);
+    display: block;
+    width: 24px;
+    height: 24px;
+}
