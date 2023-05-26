@@ -65,3 +65,29 @@
     width: 24px;
     height: 24px;
 }
+
+
+@media (min-width: 0) and (max-width: 428px) {
+    .CVD-wrap {
+        padding-top: 51px;
+        padding-bottom: 50px;
+    }
+    .CVD-title {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        max-width: 183px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .CVD-btn {
+        margin-bottom: 19px;
+    }
+}
