@@ -102,6 +102,13 @@
     display: none;
 }
 
+.port-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .main-container {
     position: relative;
     width: 364px;

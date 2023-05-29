@@ -3,7 +3,18 @@ import "./Portfolio.scss"
 import { Link } from 'react-router-dom'
 import leftIcon from '../../assets/img/imgPort/portLeftIcon.svg'
 import rightIcon from '../../assets/img/imgPort/portRightIcon.svg'
-import portImg1 from "../../assets/img/imgPort/portimg1.jpg"
+import portImg1 from "../../assets/img/imgPort/portimg4.jpg"
+import portImg2 from "../../assets/img/imgPort/portimg5.jpg"
+import portImg3 from "../../assets/img/imgPort/portimg3.jpg"
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
+import "./styles.css";
+
+import { Pagination } from "swiper";
 
 function Portfolio() {
     return (
@@ -37,29 +48,85 @@ function Portfolio() {
                         <button><img src={rightIcon} alt="" /></button>
                     </div>
                 </div>
-                <div className='port-wrapper'>
+
+
+                <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+                    <SwiperSlide>
+                        <div className='port-wrapper'>
                     <div className='main-container'>
-                        <img className='overly-img' src={portImg1} alt="" />
+                        <img className='overly-img' src={portImg3} alt="" />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div className='main-container'> 
+                        <img className='overly-img' src={portImg3} alt="" width={364} height={249} />
                         <div class="overlay">
                             <div class="text">MOBILE DESIGN</div>
                             <div class="text2">UI/UX Design</div>
                         </div>
                     </div>
                     <div className='main-container'>
-                        <img className='overly-img' src={portImg1} alt="" />
-                        <div class="overlay">
-                            <div class="text">MOBILE DESIGN</div>
-                            <div class="text2">UI/UX Design</div>
-                        </div>
-                    </div>
-                    <div className='main-container'>
-                        <img className='overly-img' src={portImg1} alt="" />
+                        <img className='overly-img' src={portImg3} alt="" />
                         <div class="overlay">
                             <div class="text">MOBILE DESIGN</div>
                             <div class="text2">UI/UX Design</div>
                         </div>
                     </div>
                 </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='port-wrapper'>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" width={364} height={249} />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='port-wrapper'>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" width={364} height={249} />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                    <div className='main-container'>
+                        <img className='overly-img' src={portImg3} alt="" />
+                        <div class="overlay">
+                            <div class="text">MOBILE DESIGN</div>
+                            <div class="text2">UI/UX Design</div>
+                        </div>
+                    </div>
+                </div>
+                    </SwiperSlide>
+                </Swiper>
             </div>
         </div>
     )
