@@ -4,6 +4,7 @@ import About from '../../Components/About1/About'
 import CV from '../../Components/CV/CV'
 import CVD from '../../Components/CVD/CVD'
 import Servis from '../../Components/Servis/Servis'
+import Portfolio from '../../Components/Portfolio/Portfolio'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <CV/>
         <CVD/>
         <Servis/>
+        <Portfolio/>
     </div>
   )
 }
