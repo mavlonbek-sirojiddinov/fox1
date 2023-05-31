@@ -171,18 +171,9 @@
     text-align: center;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
+  .port-resp-wrap {
+    display: none;
+  }
 
 
 @media (min-width: 0) and (max-width: 428px) {
@@ -317,5 +308,33 @@
     .port-btn-wrap {
         margin-left: auto;
         margin-bottom: 32px;
+    }
+
+
+
+
+    .wrapper-swiper {
+        display: none;
+    }
+    .port-resp-wrap {
+        display: flex;
+    }
+
+    .main-container {
+        width: 342px;
+    }
+    .overlay{
+        width: 342px;
+    }
+    .text {
+        font-family: 'Anton';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 48px;
+        display: flex;
+        align-items: center;
+        text-transform: capitalize;
+        color: #FFFFFF;        
     }
 }
